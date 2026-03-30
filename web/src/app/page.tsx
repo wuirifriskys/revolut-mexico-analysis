@@ -432,7 +432,7 @@ export default function Home() {
                 View Code on GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/alexfriedlander"
+                href="https://www.linkedin.com/in/alex-friedlander-a3766197/"
                 className="bg-[#0666eb] text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[#0555cc] transition"
                 target="_blank"
               >
