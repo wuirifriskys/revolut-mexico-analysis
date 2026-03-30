@@ -409,7 +409,7 @@ export default function Home() {
               I built this analysis because I believe in showing, not telling.
               The code that produced every number and chart on this page is{" "}
               <a
-                href="https://github.com/alexfriedlander/revolut-mexico-analysis"
+                href="https://github.com/wuirifriskys/revolut-mexico-analysis"
                 className="text-[#0666eb] underline"
                 target="_blank"
               >
@@ -425,7 +425,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 mt-6">
               <a
-                href="https://github.com/alexfriedlander/revolut-mexico-analysis"
+                href="https://github.com/wuirifriskys/revolut-mexico-analysis"
                 className="bg-[#191c33] text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[#2a2e4a] transition"
                 target="_blank"
               >
@@ -523,7 +523,7 @@ export default function Home() {
           <p>
             Built by Alex Friedlander &bull; Data from Banco de Mexico &bull;{" "}
             <a
-              href="https://github.com/alexfriedlander/revolut-mexico-analysis"
+              href="https://github.com/wuirifriskys/revolut-mexico-analysis"
               className="text-[#0666eb] hover:underline"
               target="_blank"
             >
