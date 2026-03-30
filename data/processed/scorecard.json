@@ -1,0 +1,322 @@
+[
+  {
+    "state": "Ciudad de M\u00e9xico",
+    "composite_score": 0.679,
+    "composite_rank": 1,
+    "volume_2024_m": 4684.7,
+    "volume_rank": 4,
+    "cagr_3yr": 0.1601,
+    "rank_delta": 3,
+    "iso_code": "MX-CMX"
+  },
+  {
+    "state": "Estado de M\u00e9xico",
+    "composite_score": 0.604,
+    "composite_rank": 2,
+    "volume_2024_m": 4601.5,
+    "volume_rank": 5,
+    "cagr_3yr": 0.1268,
+    "rank_delta": 3,
+    "iso_code": "MX-MEX"
+  },
+  {
+    "state": "Guanajuato",
+    "composite_score": 0.598,
+    "composite_rank": 3,
+    "volume_2024_m": 5645.3,
+    "volume_rank": 2,
+    "cagr_3yr": 0.0882,
+    "rank_delta": -1,
+    "iso_code": "MX-GUA"
+  },
+  {
+    "state": "Michoac\u00e1n",
+    "composite_score": 0.586,
+    "composite_rank": 4,
+    "volume_2024_m": 5646.6,
+    "volume_rank": 1,
+    "cagr_3yr": 0.0349,
+    "rank_delta": -3,
+    "iso_code": "MX-MIC"
+  },
+  {
+    "state": "Jalisco",
+    "composite_score": 0.58,
+    "composite_rank": 5,
+    "volume_2024_m": 5503.1,
+    "volume_rank": 3,
+    "cagr_3yr": 0.0135,
+    "rank_delta": -2,
+    "iso_code": "MX-JAL"
+  },
+  {
+    "state": "Puebla",
+    "composite_score": 0.533,
+    "composite_rank": 6,
+    "volume_2024_m": 3366.8,
+    "volume_rank": 8,
+    "cagr_3yr": 0.1551,
+    "rank_delta": 2,
+    "iso_code": "MX-PUE"
+  },
+  {
+    "state": "Oaxaca",
+    "composite_score": 0.525,
+    "composite_rank": 7,
+    "volume_2024_m": 3433.5,
+    "volume_rank": 7,
+    "cagr_3yr": 0.1174,
+    "rank_delta": 0,
+    "iso_code": "MX-OAX"
+  },
+  {
+    "state": "Chiapas",
+    "composite_score": 0.518,
+    "composite_rank": 8,
+    "volume_2024_m": 4168.4,
+    "volume_rank": 6,
+    "cagr_3yr": 0.2914,
+    "rank_delta": -2,
+    "iso_code": "MX-CHP"
+  },
+  {
+    "state": "Guerrero",
+    "composite_score": 0.511,
+    "composite_rank": 9,
+    "volume_2024_m": 3286.2,
+    "volume_rank": 9,
+    "cagr_3yr": 0.0701,
+    "rank_delta": 0,
+    "iso_code": "MX-GRO"
+  },
+  {
+    "state": "Yucat\u00e1n",
+    "composite_score": 0.483,
+    "composite_rank": 10,
+    "volume_2024_m": 454.0,
+    "volume_rank": 27,
+    "cagr_3yr": 0.0991,
+    "rank_delta": 17,
+    "iso_code": "MX-YUC"
+  },
+  {
+    "state": "Veracruz",
+    "composite_score": 0.472,
+    "composite_rank": 11,
+    "volume_2024_m": 2602.7,
+    "volume_rank": 10,
+    "cagr_3yr": 0.0777,
+    "rank_delta": -1,
+    "iso_code": "MX-VER"
+  },
+  {
+    "state": "Zacatecas",
+    "composite_score": 0.46,
+    "composite_rank": 12,
+    "volume_2024_m": 1906.7,
+    "volume_rank": 12,
+    "cagr_3yr": 0.0576,
+    "rank_delta": 0,
+    "iso_code": "MX-ZAC"
+  },
+  {
+    "state": "Campeche",
+    "composite_score": 0.46,
+    "composite_rank": 13,
+    "volume_2024_m": 169.3,
+    "volume_rank": 31,
+    "cagr_3yr": 0.0391,
+    "rank_delta": 18,
+    "iso_code": "MX-CAM"
+  },
+  {
+    "state": "Aguascalientes",
+    "composite_score": 0.455,
+    "composite_rank": 14,
+    "volume_2024_m": 958.2,
+    "volume_rank": 21,
+    "cagr_3yr": 0.1046,
+    "rank_delta": 7,
+    "iso_code": "MX-AGU"
+  },
+  {
+    "state": "Tlaxcala",
+    "composite_score": 0.451,
+    "composite_rank": 15,
+    "volume_2024_m": 411.5,
+    "volume_rank": 28,
+    "cagr_3yr": 0.0826,
+    "rank_delta": 13,
+    "iso_code": "MX-TLA"
+  },
+  {
+    "state": "Quer\u00e9taro",
+    "composite_score": 0.444,
+    "composite_rank": 16,
+    "volume_2024_m": 1276.8,
+    "volume_rank": 18,
+    "cagr_3yr": 0.0747,
+    "rank_delta": 2,
+    "iso_code": "MX-QUE"
+  },
+  {
+    "state": "Nayarit",
+    "composite_score": 0.443,
+    "composite_rank": 17,
+    "volume_2024_m": 857.7,
+    "volume_rank": 24,
+    "cagr_3yr": -0.0049,
+    "rank_delta": 7,
+    "iso_code": "MX-NAY"
+  },
+  {
+    "state": "Quintana Roo",
+    "composite_score": 0.442,
+    "composite_rank": 18,
+    "volume_2024_m": 395.5,
+    "volume_rank": 29,
+    "cagr_3yr": 0.0777,
+    "rank_delta": 11,
+    "iso_code": "MX-ROO"
+  },
+  {
+    "state": "San Luis Potos\u00ed",
+    "composite_score": 0.436,
+    "composite_rank": 19,
+    "volume_2024_m": 2083.4,
+    "volume_rank": 11,
+    "cagr_3yr": 0.0582,
+    "rank_delta": -8,
+    "iso_code": "MX-SLP"
+  },
+  {
+    "state": "Morelos",
+    "composite_score": 0.435,
+    "composite_rank": 20,
+    "volume_2024_m": 1144.2,
+    "volume_rank": 19,
+    "cagr_3yr": 0.0358,
+    "rank_delta": -1,
+    "iso_code": "MX-MOR"
+  },
+  {
+    "state": "Baja California",
+    "composite_score": 0.433,
+    "composite_rank": 21,
+    "volume_2024_m": 1447.1,
+    "volume_rank": 15,
+    "cagr_3yr": 0.017,
+    "rank_delta": -6,
+    "iso_code": "MX-BCN"
+  },
+  {
+    "state": "Hidalgo",
+    "composite_score": 0.428,
+    "composite_rank": 22,
+    "volume_2024_m": 1784.3,
+    "volume_rank": 13,
+    "cagr_3yr": 0.1042,
+    "rank_delta": -9,
+    "iso_code": "MX-HID"
+  },
+  {
+    "state": "Durango",
+    "composite_score": 0.421,
+    "composite_rank": 23,
+    "volume_2024_m": 1370.7,
+    "volume_rank": 16,
+    "cagr_3yr": 0.0251,
+    "rank_delta": -7,
+    "iso_code": "MX-DUR"
+  },
+  {
+    "state": "Colima",
+    "composite_score": 0.418,
+    "composite_rank": 24,
+    "volume_2024_m": 455.1,
+    "volume_rank": 26,
+    "cagr_3yr": 0.0079,
+    "rank_delta": 2,
+    "iso_code": "MX-COL"
+  },
+  {
+    "state": "Sonora",
+    "composite_score": 0.417,
+    "composite_rank": 25,
+    "volume_2024_m": 844.7,
+    "volume_rank": 25,
+    "cagr_3yr": -0.0147,
+    "rank_delta": 0,
+    "iso_code": "MX-SON"
+  },
+  {
+    "state": "Tabasco",
+    "composite_score": 0.413,
+    "composite_rank": 26,
+    "volume_2024_m": 381.8,
+    "volume_rank": 30,
+    "cagr_3yr": -0.0462,
+    "rank_delta": 4,
+    "iso_code": "MX-TAB"
+  },
+  {
+    "state": "Nuevo Le\u00f3n",
+    "composite_score": 0.389,
+    "composite_rank": 27,
+    "volume_2024_m": 1355.0,
+    "volume_rank": 17,
+    "cagr_3yr": 0.0062,
+    "rank_delta": -10,
+    "iso_code": "MX-NLE"
+  },
+  {
+    "state": "Tamaulipas",
+    "composite_score": 0.388,
+    "composite_rank": 28,
+    "volume_2024_m": 1016.8,
+    "volume_rank": 20,
+    "cagr_3yr": -0.0407,
+    "rank_delta": -8,
+    "iso_code": "MX-TAM"
+  },
+  {
+    "state": "Coahuila",
+    "composite_score": 0.382,
+    "composite_rank": 29,
+    "volume_2024_m": 951.2,
+    "volume_rank": 22,
+    "cagr_3yr": 0.0095,
+    "rank_delta": -7,
+    "iso_code": "MX-COA"
+  },
+  {
+    "state": "Chihuahua",
+    "composite_score": 0.378,
+    "composite_rank": 30,
+    "volume_2024_m": 1477.5,
+    "volume_rank": 14,
+    "cagr_3yr": -0.0257,
+    "rank_delta": -16,
+    "iso_code": "MX-CHH"
+  },
+  {
+    "state": "Sinaloa",
+    "composite_score": 0.336,
+    "composite_rank": 31,
+    "volume_2024_m": 916.2,
+    "volume_rank": 23,
+    "cagr_3yr": -0.0826,
+    "rank_delta": -8,
+    "iso_code": "MX-SIN"
+  },
+  {
+    "state": "Baja California Sur",
+    "composite_score": 0.291,
+    "composite_rank": 32,
+    "volume_2024_m": 149.9,
+    "volume_rank": 32,
+    "cagr_3yr": 0.0542,
+    "rank_delta": 0,
+    "iso_code": "MX-BCS"
+  }
+]

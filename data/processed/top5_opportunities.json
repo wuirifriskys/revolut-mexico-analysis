@@ -1,0 +1,252 @@
+[
+  {
+    "state": "Ciudad de M\u00e9xico",
+    "composite_rank": 1,
+    "volume_2024_m": 4684.7,
+    "volume_rank": 4,
+    "cagr_3yr": 0.1601,
+    "rank_delta": 3,
+    "yearly_data": [
+      {
+        "year": 2015,
+        "volume_m": 1094.2
+      },
+      {
+        "year": 2016,
+        "volume_m": 1435.3
+      },
+      {
+        "year": 2017,
+        "volume_m": 1330.2
+      },
+      {
+        "year": 2018,
+        "volume_m": 1466.6
+      },
+      {
+        "year": 2019,
+        "volume_m": 1761.6
+      },
+      {
+        "year": 2020,
+        "volume_m": 2194.2
+      },
+      {
+        "year": 2021,
+        "volume_m": 3000.3
+      },
+      {
+        "year": 2022,
+        "volume_m": 3184.2
+      },
+      {
+        "year": 2023,
+        "volume_m": 3867.9
+      },
+      {
+        "year": 2024,
+        "volume_m": 4684.7
+      }
+    ]
+  },
+  {
+    "state": "Estado de M\u00e9xico",
+    "composite_rank": 2,
+    "volume_2024_m": 4601.5,
+    "volume_rank": 5,
+    "cagr_3yr": 0.1268,
+    "rank_delta": 3,
+    "yearly_data": [
+      {
+        "year": 2015,
+        "volume_m": 1602.5
+      },
+      {
+        "year": 2016,
+        "volume_m": 1650.2
+      },
+      {
+        "year": 2017,
+        "volume_m": 1814.5
+      },
+      {
+        "year": 2018,
+        "volume_m": 1967.9
+      },
+      {
+        "year": 2019,
+        "volume_m": 2109.4
+      },
+      {
+        "year": 2020,
+        "volume_m": 2495.3
+      },
+      {
+        "year": 2021,
+        "volume_m": 3216.0
+      },
+      {
+        "year": 2022,
+        "volume_m": 3554.6
+      },
+      {
+        "year": 2023,
+        "volume_m": 4353.8
+      },
+      {
+        "year": 2024,
+        "volume_m": 4601.5
+      }
+    ]
+  },
+  {
+    "state": "Guanajuato",
+    "composite_rank": 3,
+    "volume_2024_m": 5645.3,
+    "volume_rank": 2,
+    "cagr_3yr": 0.0882,
+    "rank_delta": -1,
+    "yearly_data": [
+      {
+        "year": 2015,
+        "volume_m": 2257.8
+      },
+      {
+        "year": 2016,
+        "volume_m": 2459.6
+      },
+      {
+        "year": 2017,
+        "volume_m": 2806.2
+      },
+      {
+        "year": 2018,
+        "volume_m": 3108.6
+      },
+      {
+        "year": 2019,
+        "volume_m": 3388.2
+      },
+      {
+        "year": 2020,
+        "volume_m": 3552.6
+      },
+      {
+        "year": 2021,
+        "volume_m": 4380.3
+      },
+      {
+        "year": 2022,
+        "volume_m": 5053.9
+      },
+      {
+        "year": 2023,
+        "volume_m": 5414.5
+      },
+      {
+        "year": 2024,
+        "volume_m": 5645.3
+      }
+    ]
+  },
+  {
+    "state": "Michoac\u00e1n",
+    "composite_rank": 4,
+    "volume_2024_m": 5646.6,
+    "volume_rank": 1,
+    "cagr_3yr": 0.0349,
+    "rank_delta": -3,
+    "yearly_data": [
+      {
+        "year": 2015,
+        "volume_m": 2550.9
+      },
+      {
+        "year": 2016,
+        "volume_m": 2821.5
+      },
+      {
+        "year": 2017,
+        "volume_m": 3123.4
+      },
+      {
+        "year": 2018,
+        "volume_m": 3503.3
+      },
+      {
+        "year": 2019,
+        "volume_m": 3718.8
+      },
+      {
+        "year": 2020,
+        "volume_m": 4186.0
+      },
+      {
+        "year": 2021,
+        "volume_m": 5094.2
+      },
+      {
+        "year": 2022,
+        "volume_m": 5340.9
+      },
+      {
+        "year": 2023,
+        "volume_m": 5409.6
+      },
+      {
+        "year": 2024,
+        "volume_m": 5646.6
+      }
+    ]
+  },
+  {
+    "state": "Jalisco",
+    "composite_rank": 5,
+    "volume_2024_m": 5503.1,
+    "volume_rank": 3,
+    "cagr_3yr": 0.0135,
+    "rank_delta": -2,
+    "yearly_data": [
+      {
+        "year": 2015,
+        "volume_m": 2226.1
+      },
+      {
+        "year": 2016,
+        "volume_m": 2581.2
+      },
+      {
+        "year": 2017,
+        "volume_m": 2917.9
+      },
+      {
+        "year": 2018,
+        "volume_m": 3348.1
+      },
+      {
+        "year": 2019,
+        "volume_m": 3570.1
+      },
+      {
+        "year": 2020,
+        "volume_m": 4229.7
+      },
+      {
+        "year": 2021,
+        "volume_m": 5285.6
+      },
+      {
+        "year": 2022,
+        "volume_m": 5389.0
+      },
+      {
+        "year": 2023,
+        "volume_m": 5355.9
+      },
+      {
+        "year": 2024,
+        "volume_m": 5503.1
+      }
+    ]
+  }
+]

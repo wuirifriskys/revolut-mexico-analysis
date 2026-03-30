@@ -1,0 +1,77 @@
+[
+  {
+    "state": "California",
+    "volume_2024_m": 20412.5,
+    "cagr_3yr": 0.0517
+  },
+  {
+    "state": "Texas",
+    "volume_2024_m": 9002.3,
+    "cagr_3yr": 0.0201
+  },
+  {
+    "state": "Colorado",
+    "volume_2024_m": 2529.1,
+    "cagr_3yr": 0.2789
+  },
+  {
+    "state": "Georgia",
+    "volume_2024_m": 2454.8,
+    "cagr_3yr": 0.1967
+  },
+  {
+    "state": "Illinois",
+    "volume_2024_m": 2304.5,
+    "cagr_3yr": 0.1188
+  },
+  {
+    "state": "Florida",
+    "volume_2024_m": 2227.6,
+    "cagr_3yr": 0.0871
+  },
+  {
+    "state": "Nueva York",
+    "volume_2024_m": 1801.7,
+    "cagr_3yr": 0.1399
+  },
+  {
+    "state": "Carolina Del Norte",
+    "volume_2024_m": 1625.5,
+    "cagr_3yr": 0.1692
+  },
+  {
+    "state": "Nueva Jersey",
+    "volume_2024_m": 1444.9,
+    "cagr_3yr": 0.2848
+  },
+  {
+    "state": "Arizona",
+    "volume_2024_m": 1290.1,
+    "cagr_3yr": -0.1247
+  },
+  {
+    "state": "Ohio",
+    "volume_2024_m": 1240.6,
+    "cagr_3yr": 0.4445
+  },
+  {
+    "state": "Tennessee",
+    "volume_2024_m": 1093.7,
+    "cagr_3yr": 0.1059
+  },
+  {
+    "state": "Carolina Del Sur",
+    "volume_2024_m": 893.8,
+    "cagr_3yr": 0.274
+  },
+  {
+    "state": "Washington",
+    "volume_2024_m": 876.6,
+    "cagr_3yr": -0.0397
+  },
+  {
+    "state": "Nevada",
+    "volume_2024_m": 865.3,
+    "cagr_3yr": 0.1337
+  }
+]

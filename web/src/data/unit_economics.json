@@ -1,0 +1,25 @@
+{
+  "corridor": "California \u2192 Mexico",
+  "corridor_volume_m": 20412.0,
+  "ca_share_of_total": 0.326,
+  "market_share_target": 0.02,
+  "avg_transaction_usd": 390,
+  "revenue_per_tx": 4.5,
+  "tx_per_user_year": 16,
+  "capture_transactions": 1046792,
+  "capture_users": 65424,
+  "annual_revenue_m": 4.7,
+  "cac_range": [
+    15,
+    40
+  ],
+  "ltv_3yr": 216.0,
+  "ltv_cac_range": [
+    5.4,
+    14.4
+  ],
+  "payback_months_range": [
+    2.5,
+    6.7
+  ]
+}
