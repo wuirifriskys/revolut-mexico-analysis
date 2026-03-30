@@ -43,6 +43,17 @@ df_usa = pd.read_csv(os.path.join(RAW_DIR, "remesas_usa.csv"))
 df_usa["PERIODO"] = pd.to_datetime(df_usa["PERIODO"])
 df_usa["VALOR_USD_M"] = df_usa["VALOR_USD"] / 1_000_000
 
+# Translate Spanish US state names to English
+us_name_map = {
+    "Carolina Del Norte": "North Carolina", "Carolina Del Sur": "South Carolina",
+    "Dakota Del Norte": "North Dakota", "Dakota Del Sur": "South Dakota",
+    "Luisiana": "Louisiana", "Mississipi": "Mississippi", "Misuri": "Missouri",
+    "Nueva Jersey": "New Jersey", "Nueva York": "New York",
+    "Nuevo Hampshire": "New Hampshire", "Nuevo Mexico": "New Mexico",
+    "Pensilvania": "Pennsylvania", "No Identificado": "Unidentified",
+}
+df_usa["ESTADO"] = df_usa["ESTADO"].replace(us_name_map)
+
 # National monthly totals
 df_national = pd.read_csv(os.path.join(RAW_DIR, "remesas_mensuales.csv"))
 df_national["PERIODO"] = pd.to_datetime(df_national["PERIODO"])

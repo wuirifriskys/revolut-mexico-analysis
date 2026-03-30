@@ -13,7 +13,13 @@ const Charts = {
   RankComparison: dynamic(() => import("@/components/Charts").then(m => m.Charts.RankComparison), { ssr: false, loading: () => <div className="bg-white rounded-xl border border-gray-200 p-6 h-[400px] animate-pulse" /> }),
   GrowthTrajectory: dynamic(() => import("@/components/Charts").then(m => m.Charts.GrowthTrajectory), { ssr: false, loading: () => <div className="bg-white rounded-xl border border-gray-200 p-6 h-[400px] animate-pulse" /> }),
   USOrigin: dynamic(() => import("@/components/Charts").then(m => m.Charts.USOrigin), { ssr: false, loading: () => <div className="bg-white rounded-xl border border-gray-200 p-6 h-[400px] animate-pulse" /> }),
+  MexicoMap: dynamic(() => import("@/components/MexicoMap").then(m => m.MexicoMap), { ssr: false, loading: () => <div className="bg-white rounded-xl border border-gray-200 p-6 h-[500px] animate-pulse" /> }),
 };
+
+const UnitEconomicsInteractive = dynamic(
+  () => import("@/components/UnitEconomicsInteractive").then(m => m.UnitEconomicsInteractive),
+  { ssr: false }
+);
 
 export default function Home() {
   const top10 = scorecard.slice(0, 10);
@@ -108,8 +114,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* OPPORTUNITY SCORECARD */}
+      {/* CHOROPLETH MAP */}
       <section className="max-w-5xl mx-auto px-6 py-16">
+        <h2 className="text-3xl font-bold mb-2">Opportunity by State</h2>
+        <p className="text-gray-500 mb-8 max-w-2xl">
+          Each state colored by composite opportunity score. Darker blue = higher opportunity.
+          Hover over a state to see its score and ranking.
+        </p>
+        <Charts.MexicoMap data={scorecard} />
+      </section>
+
+      {/* OPPORTUNITY SCORECARD */}
+      <section className="bg-gray-50 border-y border-gray-200">
+      <div className="max-w-5xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold mb-2">Opportunity Scorecard</h2>
         <p className="text-gray-500 mb-4 max-w-2xl">
           All 32 Mexican states ranked by composite opportunity score. The score
@@ -169,10 +186,11 @@ export default function Home() {
             </tbody>
           </table>
         </div>
+      </div>
       </section>
 
       {/* GROWTH TRAJECTORY */}
-      <section className="bg-gray-50 border-y border-gray-200">
+      <section>
         <div className="max-w-5xl mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-2">Growth Trajectories</h2>
           <p className="text-gray-500 mb-8 max-w-2xl">
@@ -301,39 +319,7 @@ export default function Home() {
           {(unitEconomics.ca_share_of_total * 100).toFixed(1)}% of all
           US&rarr;MX volume).
         </p>
-        <div className="grid md:grid-cols-4 gap-6 mb-8">
-          {[
-            {
-              label: "Target Market Share",
-              value: `${unitEconomics.market_share_target * 100}%`,
-              sub: "Conservative",
-            },
-            {
-              label: "Annual Revenue",
-              value: `$${unitEconomics.annual_revenue_m}M`,
-              sub: `${unitEconomics.capture_transactions.toLocaleString()} transactions`,
-            },
-            {
-              label: "Users Needed",
-              value: unitEconomics.capture_users.toLocaleString(),
-              sub: `${unitEconomics.tx_per_user_year} tx/user/year`,
-            },
-            {
-              label: "LTV:CAC Ratio",
-              value: `${unitEconomics.ltv_cac_range[0]}x - ${unitEconomics.ltv_cac_range[1]}x`,
-              sub: `Payback: ${unitEconomics.payback_months_range[0]}-${unitEconomics.payback_months_range[1]} months`,
-            },
-          ].map((card) => (
-            <div
-              key={card.label}
-              className="bg-gray-50 rounded-xl p-6 border border-gray-200"
-            >
-              <p className="text-sm text-gray-500 mb-1">{card.label}</p>
-              <p className="text-2xl font-bold text-[#191c33]">{card.value}</p>
-              <p className="text-xs text-gray-400 mt-1">{card.sub}</p>
-            </div>
-          ))}
-        </div>
+        <UnitEconomicsInteractive base={unitEconomics} />
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-sm text-amber-800">
           <p className="font-semibold mb-2">Assumptions & Caveats</p>
           <ul className="space-y-1">
@@ -417,12 +403,14 @@ export default function Home() {
               </a>
               .
             </p>
-            <p className="text-gray-600 mb-4">
-              I&apos;m applying for the Strategy & Operations Manager role at
-              Revolut. My background combines structured strategic thinking with
-              hands-on execution — the same combination this analysis
-              demonstrates.
-            </p>
+            <p className="text-gray-600 mb-3 font-semibold">Alex Friedlander</p>
+            <ul className="text-gray-600 text-sm space-y-2 mb-4">
+              <li>&bull; <strong>BBA, ESADE Business School</strong> (Ramon Llull University, Barcelona)</li>
+              <li>&bull; <strong>4 years at Alfa Consulting / Accenture</strong> — Strategy & operational improvement for major utilities across the US, Spain, and Singapore. Built Power BI dashboards for executive decision-making, led maintenance optimization delivering &euro;1M+ annual impact per site, designed crew programs improving field productivity by 15-20%.</li>
+              <li>&bull; <strong>AI Business Development, ZenAI Group (APAC)</strong> — Sole responsibility for expanding an AI solutions company across Southeast Asia. Built enterprise sales pipeline from scratch in a new market.</li>
+              <li>&bull; <strong>Founder, Bookids</strong> — AI-powered personalized children&apos;s books. Built from zero to live product across 3 markets with no external funding. Manage the full stack: product, engineering, vendor negotiations, marketing funnel, unit economics.</li>
+              <li>&bull; <strong>Spanish & US citizen</strong> — Native Spanish speaker with direct operational context for both sides of the US-Mexico corridor.</li>
+            </ul>
             <div className="flex gap-4 mt-6">
               <a
                 href="https://github.com/wuirifriskys/revolut-mexico-analysis"
@@ -512,6 +500,15 @@ export default function Home() {
               3-year CAGR (25%), growth acceleration (25%), and underserved
               index (20%). All factors min-max normalized to 0-1 before
               weighting.
+            </p>
+            <p className="mt-2 bg-white border border-gray-200 rounded-lg p-3">
+              <strong>Known limitation:</strong> The &ldquo;underserved index&rdquo; uses
+              inverse volume rank as a proxy for competitive intensity — assuming
+              that higher-volume states attract more fintech entrants. This is
+              directionally correct (Nu, Mercado Pago, and Stori all prioritize
+              top-volume states), but real fintech penetration data by state from
+              CNBV would make this factor significantly more precise. With Revolut
+              internal data, this model becomes materially more actionable.
             </p>
           </div>
         </div>

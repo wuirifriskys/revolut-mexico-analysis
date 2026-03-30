@@ -30,17 +30,17 @@
     "cagr_3yr": 0.0871
   },
   {
-    "state": "Nueva York",
+    "state": "New York",
     "volume_2024_m": 1801.7,
     "cagr_3yr": 0.1399
   },
   {
-    "state": "Carolina Del Norte",
+    "state": "North Carolina",
     "volume_2024_m": 1625.5,
     "cagr_3yr": 0.1692
   },
   {
-    "state": "Nueva Jersey",
+    "state": "New Jersey",
     "volume_2024_m": 1444.9,
     "cagr_3yr": 0.2848
   },
@@ -60,7 +60,7 @@
     "cagr_3yr": 0.1059
   },
   {
-    "state": "Carolina Del Sur",
+    "state": "South Carolina",
     "volume_2024_m": 893.8,
     "cagr_3yr": 0.274
   },
