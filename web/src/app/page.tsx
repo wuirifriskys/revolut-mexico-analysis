@@ -53,7 +53,7 @@ export default function Home() {
               32 states scored
             </span>
             <span className="bg-white/10 px-4 py-2 rounded-full">
-              53 US origin states
+              50 US states + DC mapped
             </span>
             <span className="bg-white/10 px-4 py-2 rounded-full">
               Banxico public data (2003-2025)
@@ -563,7 +563,7 @@ export default function Home() {
             </p>
             <p>
               <strong>US origin data:</strong> Banxico bilateral remittance
-              records, quarterly, 53 US states/territories, 2013-2025.
+              records, quarterly, 50 US states + DC + Puerto Rico, 2013-2025.
             </p>
             <p>
               <strong>Competitor pricing:</strong> Collected March 2026 from
