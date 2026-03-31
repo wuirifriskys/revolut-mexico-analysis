@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - heading [level=1]
+  - paragraph
+  - generic [ref=e3]:
+    - generic [ref=e4]: "Tiempo:"
+    - generic [ref=e5]: "Porciones:"
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: Ingredientes
+      - list
+    - generic [ref=e9]:
+      - generic [ref=e10]: Preparación
+      - list
+  - generic [ref=e12]: 💡

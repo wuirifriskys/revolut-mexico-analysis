@@ -386,6 +386,80 @@ export default function Home() {
         </div>
       </section>
 
+      {/* HOW IT WAS BUILT (Section A — short) */}
+      <section className="bg-gray-50 border-y border-gray-200">
+        <div className="max-w-5xl mx-auto px-6 py-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-[#0666eb] font-semibold text-sm uppercase tracking-widest mb-4">
+                How This Was Built
+              </p>
+              <h2 className="text-3xl font-bold mb-4">
+                One person.<br />One session.<br />An agent system.
+              </h2>
+              <p className="text-gray-600 mb-4">
+                This entire analysis — data acquisition, competitive research,
+                scoring model, visualizations, interactive web page, and deployment —
+                was produced in a single working session using a personal AI agent
+                infrastructure.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Not by copy-pasting into ChatGPT. Through coordinated specialist agents
+                that I design, direct, and quality-control — the same system I&apos;d
+                build for Revolut&apos;s S&O team.
+              </p>
+              <a
+                href="/how-it-works"
+                className="inline-flex items-center gap-2 bg-[#191c33] text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[#2a2e4a] transition"
+              >
+                See how the system works &rarr;
+              </a>
+            </div>
+            <div className="bg-[#191c33] rounded-xl p-6 text-white text-sm">
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center text-[#0666eb] text-xs font-bold">D</div>
+                  <div>
+                    <p className="font-semibold">Data Agents</p>
+                    <p className="text-gray-400 text-xs">Banxico API, 4 datasets, parallel acquisition</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-xs font-bold">R</div>
+                  <div>
+                    <p className="font-semibold">Research Agents</p>
+                    <p className="text-gray-400 text-xs">5 competitors priced, 3 agents in parallel</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-violet-500/20 flex items-center justify-center text-violet-400 text-xs font-bold">E</div>
+                  <div>
+                    <p className="font-semibold">Execution Agents</p>
+                    <p className="text-gray-400 text-xs">Python pipeline, Next.js web, Vercel deploy</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-amber-500/20 flex items-center justify-center text-amber-400 text-xs font-bold">Q</div>
+                  <div>
+                    <p className="font-semibold">Quality Agents</p>
+                    <p className="text-gray-400 text-xs">Visual audit, mobile test, security review</p>
+                  </div>
+                </div>
+                <div className="border-t border-white/10 pt-3 mt-3">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-[#0666eb]/30 flex items-center justify-center text-[#0666eb] text-xs font-bold">AF</div>
+                    <div>
+                      <p className="font-semibold">Strategic Layer (Me)</p>
+                      <p className="text-gray-400 text-xs">Framework design, insight extraction, quality control</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ABOUT */}
       <section className="max-w-5xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold mb-6">About This Analysis</h2>
@@ -410,6 +484,7 @@ export default function Home() {
               <li>&bull; <strong>AI Business Development, ZenAI Group (APAC)</strong> — Sole responsibility for expanding an AI solutions company across Southeast Asia. Built enterprise sales pipeline from scratch in a new market.</li>
               <li>&bull; <strong>Founder, Bookids</strong> — AI-powered personalized children&apos;s books. Built from zero to live product across 3 markets with no external funding. Manage the full stack: product, engineering, vendor negotiations, marketing funnel, unit economics.</li>
               <li>&bull; <strong>Spanish & US citizen</strong> — Native Spanish speaker with direct operational context for both sides of the US-Mexico corridor.</li>
+              <li>&bull; <strong>Claude Code Certified (Anthropic)</strong> — Certified in agentic AI development. I operate with a personal AI agent infrastructure daily — the same system that <a href="/how-it-works" className="text-[#0666eb] underline">produced this analysis</a>.</li>
             </ul>
             <div className="flex gap-4 mt-6">
               <a

@@ -1,0 +1,326 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Strategy & Operations Analysis
+      - heading "Where Revolut Wins in Mexico" [level=1] [ref=e7]:
+        - text: Where Revolut Wins
+        - text: in Mexico
+      - paragraph [ref=e8]: Mexico receives $62.6B+ in remittances annually. But not all corridors are equal — this analysis identifies where Revolut has the highest probability of winning.
+      - generic [ref=e9]:
+        - generic [ref=e10]: 32 states scored
+        - generic [ref=e11]: 53 US origin states
+        - generic [ref=e12]: Banxico public data (2003-2025)
+        - generic [ref=e13]: 5 competitor teardown
+    - generic [ref=e14]:
+      - heading "The Opportunity" [level=2] [ref=e15]
+      - paragraph [ref=e16]: "Mexico is the world's #2 remittance recipient. Volume has more than doubled since 2015, driven by a growing Mexican diaspora in the US and increasing digital transfer adoption."
+    - generic [ref=e20]:
+      - paragraph [ref=e21]: Key Finding
+      - heading "Volume rank ≠ Opportunity rank" [level=2] [ref=e22]
+      - paragraph [ref=e23]: The states that receive the most remittances are not necessarily the best targets. By combining volume, growth rate, growth acceleration, and competitive intensity, a different picture emerges.
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: Campeche
+          - paragraph [ref=e27]:
+            - text: Volume rank
+            - generic [ref=e28]: "#31"
+            - text: → Opportunity rank
+            - generic [ref=e29]: "#13"
+          - paragraph [ref=e30]: ↑18 positions
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Yucatán
+          - paragraph [ref=e33]:
+            - text: Volume rank
+            - generic [ref=e34]: "#27"
+            - text: → Opportunity rank
+            - generic [ref=e35]: "#10"
+          - paragraph [ref=e36]: ↑17 positions
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: Tlaxcala
+          - paragraph [ref=e39]:
+            - text: Volume rank
+            - generic [ref=e40]: "#28"
+            - text: → Opportunity rank
+            - generic [ref=e41]: "#15"
+          - paragraph [ref=e42]: ↑13 positions
+    - generic [ref=e43]:
+      - heading "Opportunity by State" [level=2] [ref=e44]
+      - paragraph [ref=e45]: Each state colored by composite opportunity score. Darker blue = higher opportunity. Hover over a state to see its score and ranking.
+    - generic [ref=e48]:
+      - heading "Opportunity Scorecard" [level=2] [ref=e49]
+      - paragraph [ref=e50]: "All 32 Mexican states ranked by composite opportunity score. The score weights: volume (30%), 3-year growth CAGR (25%), growth acceleration (25%), and underserved index (20%)."
+      - table [ref=e53]:
+        - rowgroup [ref=e54]:
+          - row "Rank State Volume 2024 3yr CAGR Vol. Rank Score" [ref=e55]:
+            - columnheader "Rank" [ref=e56]
+            - columnheader "State" [ref=e57]
+            - columnheader "Volume 2024" [ref=e58]
+            - columnheader "3yr CAGR" [ref=e59]
+            - columnheader "Vol. Rank" [ref=e60]
+            - columnheader "Score" [ref=e61]
+        - rowgroup [ref=e62]:
+          - 'row "#1 Ciudad de México $4,684.7M 16.0% #4 0.679" [ref=e63]':
+            - cell "#1" [ref=e64]
+            - cell "Ciudad de México" [ref=e65]
+            - cell "$4,684.7M" [ref=e66]
+            - cell "16.0%" [ref=e67]:
+              - generic [ref=e68]: 16.0%
+            - cell "#4" [ref=e69]
+            - cell "0.679" [ref=e70]
+          - 'row "#2 Estado de México $4,601.5M 12.7% #5 0.604" [ref=e71]':
+            - cell "#2" [ref=e72]
+            - cell "Estado de México" [ref=e73]
+            - cell "$4,601.5M" [ref=e74]
+            - cell "12.7%" [ref=e75]:
+              - generic [ref=e76]: 12.7%
+            - cell "#5" [ref=e77]
+            - cell "0.604" [ref=e78]
+          - 'row "#3 Guanajuato $5,645.3M 8.8% #2 0.598" [ref=e79]':
+            - cell "#3" [ref=e80]
+            - cell "Guanajuato" [ref=e81]
+            - cell "$5,645.3M" [ref=e82]
+            - cell "8.8%" [ref=e83]:
+              - generic [ref=e84]: 8.8%
+            - cell "#2" [ref=e85]
+            - cell "0.598" [ref=e86]
+          - 'row "#4 Michoacán $5,646.6M 3.5% #1 0.586" [ref=e87]':
+            - cell "#4" [ref=e88]
+            - cell "Michoacán" [ref=e89]
+            - cell "$5,646.6M" [ref=e90]
+            - cell "3.5%" [ref=e91]:
+              - generic [ref=e92]: 3.5%
+            - cell "#1" [ref=e93]
+            - cell "0.586" [ref=e94]
+          - 'row "#5 Jalisco $5,503.1M 1.4% #3 0.580" [ref=e95]':
+            - cell "#5" [ref=e96]
+            - cell "Jalisco" [ref=e97]
+            - cell "$5,503.1M" [ref=e98]
+            - cell "1.4%" [ref=e99]:
+              - generic [ref=e100]: 1.4%
+            - cell "#3" [ref=e101]
+            - cell "0.580" [ref=e102]
+          - 'row "#6 Puebla $3,366.8M 15.5% #8 0.533" [ref=e103]':
+            - cell "#6" [ref=e104]
+            - cell "Puebla" [ref=e105]
+            - cell "$3,366.8M" [ref=e106]
+            - cell "15.5%" [ref=e107]:
+              - generic [ref=e108]: 15.5%
+            - cell "#8" [ref=e109]
+            - cell "0.533" [ref=e110]
+          - 'row "#7 Oaxaca $3,433.5M 11.7% #7 0.525" [ref=e111]':
+            - cell "#7" [ref=e112]
+            - cell "Oaxaca" [ref=e113]
+            - cell "$3,433.5M" [ref=e114]
+            - cell "11.7%" [ref=e115]:
+              - generic [ref=e116]: 11.7%
+            - cell "#7" [ref=e117]
+            - cell "0.525" [ref=e118]
+          - 'row "#8 Chiapas $4,168.4M 29.1% #6 0.518" [ref=e119]':
+            - cell "#8" [ref=e120]
+            - cell "Chiapas" [ref=e121]
+            - cell "$4,168.4M" [ref=e122]
+            - cell "29.1%" [ref=e123]:
+              - generic [ref=e124]: 29.1%
+            - cell "#6" [ref=e125]
+            - cell "0.518" [ref=e126]
+          - 'row "#9 Guerrero $3,286.2M 7.0% #9 0.511" [ref=e127]':
+            - cell "#9" [ref=e128]
+            - cell "Guerrero" [ref=e129]
+            - cell "$3,286.2M" [ref=e130]
+            - cell "7.0%" [ref=e131]:
+              - generic [ref=e132]: 7.0%
+            - cell "#9" [ref=e133]
+            - cell "0.511" [ref=e134]
+          - 'row "#10 Yucatán $454M 9.9% #27 0.483" [ref=e135]':
+            - cell "#10" [ref=e136]
+            - cell "Yucatán" [ref=e137]
+            - cell "$454M" [ref=e138]
+            - cell "9.9%" [ref=e139]:
+              - generic [ref=e140]: 9.9%
+            - cell "#27" [ref=e141]
+            - cell "0.483" [ref=e142]
+    - generic [ref=e144]:
+      - heading "Growth Trajectories" [level=2] [ref=e145]
+      - paragraph [ref=e146]: Annual remittance volume for the top 5 opportunity states. Note the acceleration in Chiapas and Ciudad de Mexico since 2020.
+    - generic [ref=e148]:
+      - heading "The Sending Side" [level=2] [ref=e149]
+      - paragraph [ref=e150]: California alone accounts for 32.6% of all US→Mexico remittances. The top 5 US states represent over 58% of total volume — these are where Revolut needs US-side presence.
+    - generic [ref=e153]:
+      - heading "Competitive Landscape" [level=2] [ref=e154]
+      - paragraph [ref=e155]: Operational comparison for sending $300 USD to Mexico. Revolut's FX advantage is clear — the gap is cash-out infrastructure.
+      - table [ref=e157]:
+        - rowgroup [ref=e158]:
+          - row "Provider Fee FX Markup Recipient Gets Cash Pickup Delivery" [ref=e159]:
+            - columnheader "Provider" [ref=e160]
+            - columnheader "Fee" [ref=e161]
+            - columnheader "FX Markup" [ref=e162]
+            - columnheader "Recipient Gets" [ref=e163]
+            - columnheader "Cash Pickup" [ref=e164]
+            - columnheader "Delivery" [ref=e165]
+        - rowgroup [ref=e166]:
+          - row "RevolutBest Rate Free 0% 5,437 MXN No 20s (R2R) / 3-5 days (bank)" [ref=e167]:
+            - cell "RevolutBest Rate" [ref=e168]
+            - cell "Free" [ref=e169]
+            - cell "0%" [ref=e170]
+            - cell "5,437 MXN" [ref=e171]
+            - cell "No" [ref=e172]
+            - cell "20s (R2R) / 3-5 days (bank)" [ref=e173]
+          - row "Wise $2.64 0.03% 5,389 MXN No < 20 seconds (74%)" [ref=e174]:
+            - cell "Wise" [ref=e175]
+            - cell "$2.64" [ref=e176]
+            - cell "0.03%" [ref=e177]
+            - cell "5,389 MXN" [ref=e178]
+            - cell "No" [ref=e179]
+            - cell "< 20 seconds (74%)" [ref=e180]
+          - row "Remitly $1.99 0.4% 5,370 MXN Yes Minutes (Express) / 3-5 days (Economy)" [ref=e181]:
+            - cell "Remitly" [ref=e182]
+            - cell "$1.99" [ref=e183]
+            - cell "0.4%" [ref=e184]
+            - cell "5,370 MXN" [ref=e185]
+            - cell "Yes" [ref=e186]
+            - cell "Minutes (Express) / 3-5 days (Economy)" [ref=e187]
+          - row "Xoom Free 1.75% 5,340 MXN Yes ~1 hour (bank)" [ref=e188]:
+            - cell "Xoom" [ref=e189]
+            - cell "Free" [ref=e190]
+            - cell "1.75%" [ref=e191]
+            - cell "5,340 MXN" [ref=e192]
+            - cell "Yes" [ref=e193]
+            - cell "~1 hour (bank)" [ref=e194]
+          - row "Western Union $5.00 1.9% 5,245 MXN Yes Minutes (cash) / 1-3 days (bank)" [ref=e195]:
+            - cell "Western Union" [ref=e196]
+            - cell "$5.00" [ref=e197]
+            - cell "1.9%" [ref=e198]
+            - cell "5,245 MXN" [ref=e199]
+            - cell "Yes" [ref=e200]
+            - cell "Minutes (cash) / 1-3 days (bank)" [ref=e201]
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - heading "Revolut's Structural Advantage" [level=3] [ref=e204]
+          - list [ref=e205]:
+            - listitem [ref=e206]: • Best-in-class FX rates (mid-market on weekdays)
+            - listitem [ref=e207]: • Zero-fee transfers within fair usage limits
+            - listitem [ref=e208]: • Multi-currency account — not just a transfer tool
+            - listitem [ref=e209]: • Instant Revolut-to-Revolut transfers
+        - generic [ref=e210]:
+          - heading "Structural Gaps to Close" [level=3] [ref=e211]
+          - list [ref=e212]:
+            - listitem [ref=e213]: • No cash-out network (OXXO, Walmart, Elektra)
+            - listitem [ref=e214]: • Recipient needs Revolut for best experience
+            - listitem [ref=e215]: • Bank transfers take 3-5 days vs minutes
+            - listitem [ref=e216]: • Brand awareness near zero in Mexico
+    - generic [ref=e217]:
+      - heading "Unit Economics" [level=2] [ref=e218]
+      - paragraph [ref=e219]: Modeling California → Mexico — the largest single corridor at $20,412M annually (32.6% of all US→MX volume).
+      - generic [ref=e220]:
+        - paragraph [ref=e221]: Assumptions & Caveats
+        - list [ref=e222]:
+          - listitem [ref=e223]: "• Average transaction: $390 USD (Banxico national average)"
+          - listitem [ref=e224]: "• Revenue per transaction: $4.5 (estimated fee + FX spread)"
+          - listitem [ref=e225]: "• CAC range: $15-$40 (fintech industry benchmarks)"
+          - listitem [ref=e226]: "• LTV horizon: 3 years (conservative for a sticky financial product)"
+          - listitem [ref=e227]: • These estimates use public data. With internal Revolut data on actual margins, fees, and acquisition costs, this model becomes actionable.
+    - generic [ref=e229]:
+      - heading "What I'd Do With Internal Data" [level=2] [ref=e230]
+      - paragraph [ref=e231]: "This analysis uses public Banxico data — which is already substantial. Here's what becomes possible with Revolut's internal datasets:"
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - heading "User Acquisition Optimization" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Cross-reference corridor data with Revolut's existing Mexico user base to identify CAC efficiency by region. Target marketing spend on corridors with highest organic adoption.
+        - generic [ref=e236]:
+          - heading "Pricing Strategy by Corridor" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Model optimal fee/FX spread by corridor based on competitive intensity, user price sensitivity, and transaction frequency. Each corridor likely has a different optimal price point.
+        - generic [ref=e239]:
+          - heading "Partnership Prioritization" [level=3] [ref=e240]
+          - paragraph [ref=e241]: Use transaction data to identify which cash-out partnerships (OXXO, Walmart, Elektra) would unlock the most volume in underserved corridors. Sequence partner deals by ROI.
+    - generic [ref=e242]:
+      - heading "About This Analysis" [level=2] [ref=e243]
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - paragraph [ref=e246]:
+            - text: I built this analysis because I believe in showing, not telling. The code that produced every number and chart on this page is
+            - link "open source on GitHub" [ref=e247] [cursor=pointer]:
+              - /url: https://github.com/wuirifriskys/revolut-mexico-analysis
+            - text: .
+          - paragraph [ref=e248]: Alex Friedlander
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - text: •
+              - strong [ref=e251]: BBA, ESADE Business School
+              - text: (Ramon Llull University, Barcelona)
+            - listitem [ref=e252]:
+              - text: •
+              - strong [ref=e253]: 4 years at Alfa Consulting / Accenture
+              - text: — Strategy & operational improvement for major utilities across the US, Spain, and Singapore. Built Power BI dashboards for executive decision-making, led maintenance optimization delivering €1M+ annual impact per site, designed crew programs improving field productivity by 15-20%.
+            - listitem [ref=e254]:
+              - text: •
+              - strong [ref=e255]: AI Business Development, ZenAI Group (APAC)
+              - text: — Sole responsibility for expanding an AI solutions company across Southeast Asia. Built enterprise sales pipeline from scratch in a new market.
+            - listitem [ref=e256]:
+              - text: •
+              - strong [ref=e257]: Founder, Bookids
+              - text: "— AI-powered personalized children's books. Built from zero to live product across 3 markets with no external funding. Manage the full stack: product, engineering, vendor negotiations, marketing funnel, unit economics."
+            - listitem [ref=e258]:
+              - text: •
+              - strong [ref=e259]: Spanish & US citizen
+              - text: — Native Spanish speaker with direct operational context for both sides of the US-Mexico corridor.
+          - generic [ref=e260]:
+            - link "View Code on GitHub" [ref=e261] [cursor=pointer]:
+              - /url: https://github.com/wuirifriskys/revolut-mexico-analysis
+            - link "Connect on LinkedIn" [ref=e262] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/alex-friedlander-a3766197/
+        - generic [ref=e263]:
+          - heading "Why This Matters for the Role" [level=3] [ref=e264]
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]: ✓
+              - generic [ref=e268]:
+                - paragraph [ref=e269]: Building scalable processes
+                - paragraph [ref=e270]: The analysis pipeline itself — reproducible, modular, data-driven
+            - generic [ref=e271]:
+              - generic [ref=e272]: ✓
+              - generic [ref=e273]:
+                - paragraph [ref=e274]: Exploring and prioritizing projects
+                - paragraph [ref=e275]: Corridor scoring framework — prioritization with weighted criteria
+            - generic [ref=e276]:
+              - generic [ref=e277]: ✓
+              - generic [ref=e278]:
+                - paragraph [ref=e279]: Experience coding (SQL, Python, R)
+                - paragraph [ref=e280]: Python + pandas + Plotly + Next.js — full-stack execution
+            - generic [ref=e281]:
+              - generic [ref=e282]: ✓
+              - generic [ref=e283]:
+                - paragraph [ref=e284]: Breaking complex problems down
+                - paragraph [ref=e285]: Macro → state → corridor → unit economics decomposition
+            - generic [ref=e286]:
+              - generic [ref=e287]: ✓
+              - generic [ref=e288]:
+                - paragraph [ref=e289]: Managing vendor relationships
+                - paragraph [ref=e290]: Competitive teardown includes partner/vendor assessment
+            - generic [ref=e291]:
+              - generic [ref=e292]: ✓
+              - generic [ref=e293]:
+                - paragraph [ref=e294]: Natural curiosity + will to impact
+                - paragraph [ref=e295]: You’re reading an unsolicited analysis — that’s both
+    - generic [ref=e297]:
+      - heading "Methodology & Data Sources" [level=3] [ref=e298]
+      - generic [ref=e299]:
+        - paragraph [ref=e300]:
+          - strong [ref=e301]: "Remittance data:"
+          - text: Banco de Mexico (Banxico) SIE — Table CE100 (state-level, quarterly, 2003-2025). Values in USD.
+        - paragraph [ref=e302]:
+          - strong [ref=e303]: "US origin data:"
+          - text: Banxico bilateral remittance records, quarterly, 53 US states/territories, 2013-2025.
+        - paragraph [ref=e304]:
+          - strong [ref=e305]: "Competitor pricing:"
+          - text: Collected March 2026 from provider websites and World Bank Remittance Prices Worldwide. Dynamic pricing means these are directionally accurate, not exact.
+        - paragraph [ref=e306]:
+          - strong [ref=e307]: "Opportunity score:"
+          - text: Composite of volume (30%), 3-year CAGR (25%), growth acceleration (25%), and underserved index (20%). All factors min-max normalized to 0-1 before weighting.
+        - paragraph [ref=e308]:
+          - strong [ref=e309]: "Known limitation:"
+          - text: The “underserved index” uses inverse volume rank as a proxy for competitive intensity — assuming that higher-volume states attract more fintech entrants. This is directionally correct (Nu, Mercado Pago, and Stori all prioritize top-volume states), but real fintech penetration data by state from CNBV would make this factor significantly more precise. With Revolut internal data, this model becomes materially more actionable.
+    - paragraph [ref=e312]:
+      - text: Built by Alex Friedlander • Data from Banco de Mexico •
+      - link "Source Code" [ref=e313] [cursor=pointer]:
+        - /url: https://github.com/wuirifriskys/revolut-mexico-analysis
+  - alert [ref=e314]
