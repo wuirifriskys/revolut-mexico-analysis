@@ -384,6 +384,10 @@ export default function HowItWorks() {
             </p>
             <div className="space-y-4 text-sm">
               <div>
+                <p className="font-semibold">Revolut — Sherlock, ElevenLabs, AP2</p>
+                <p className="text-gray-400">ML fraud detection catching 96% of fraud in &lt;50ms. AI voice support in 32 languages handling 3,000 calls/day. Agentic commerce pioneer with Google AP2.</p>
+              </div>
+              <div>
                 <p className="font-semibold">Block (Square) — &ldquo;Goose&rdquo;</p>
                 <p className="text-gray-400">150+ internal service integrations. 8-10 hours saved per employee per week. Used by HR, legal, ops, and strategy teams.</p>
               </div>
@@ -397,7 +401,7 @@ export default function HowItWorks() {
               </div>
             </div>
             <p className="text-gray-500 text-xs mt-6">
-              Sources: Block 2025 annual report, Nubank tech blog, Fortune (Feb 2026)
+              Sources: Revolut newsroom, Couchbase case study, Block/Sequoia podcast, Nubank tech blog, Fortune (Feb 2026)
             </p>
           </div>
         </div>

@@ -1,25 +1,25 @@
 [
   {
     "provider": "Revolut",
-    "fee_usd": 0.0,
+    "fee_usd": 0.75,
     "fx_markup_pct": 0.0,
-    "total_cost_usd": 0.0,
-    "recipient_mxn": 5437,
+    "total_cost_usd": 0.75,
+    "recipient_mxn": 5390,
     "delivery_options": "Bank, Revolut-to-Revolut",
-    "delivery_time": "20s (R2R) / 3-5 days (bank)",
+    "delivery_time": "20s (R2R) / arrives today (bank)",
     "cash_pickup": false,
-    "note": "Free on weekdays within $1K/mo limit"
+    "note": "Mid-market rate, $0.75 bank transfer fee"
   },
   {
     "provider": "Wise",
-    "fee_usd": 2.10,
+    "fee_usd": 3.19,
     "fx_markup_pct": 0.0,
-    "total_cost_usd": 2.10,
-    "recipient_mxn": 5389,
+    "total_cost_usd": 3.19,
+    "recipient_mxn": 5375,
     "delivery_options": "Bank deposit",
-    "delivery_time": "< 20 seconds (74%)",
+    "delivery_time": "Seconds (typical)",
     "cash_pickup": false,
-    "note": "Mid-market rate, 0.7% service fee"
+    "note": "Mid-market rate, fee included in send amount"
   },
   {
     "provider": "Remitly",
