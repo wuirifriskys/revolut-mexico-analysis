@@ -184,12 +184,41 @@ export default function HowItWorks() {
         </div>
       </section>
 
-      {/* WHAT THIS LOOKS LIKE AT REVOLUT */}
+      {/* REVOLUT AI CONTEXT */}
       <section className="max-w-5xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-2">What This Looks Like at Revolut</h2>
+        <h2 className="text-3xl font-bold mb-2">Revolut Is Already AI-First</h2>
+        <p className="text-gray-500 mb-8 max-w-2xl">
+          I&apos;m not proposing to &ldquo;bring AI to Revolut&rdquo; — Revolut is
+          already one of the most AI-advanced fintechs in the world. The question
+          is how to extend these capabilities into S&O workflows.
+        </p>
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          {[
+            {
+              name: "Sherlock",
+              desc: "Proprietary ML fraud detection. 96% of fraudulent transactions caught in <50ms. €550M+ in fraud prevented.",
+            },
+            {
+              name: "ElevenLabs Voice AI",
+              desc: "3,000 calls/day across 32 languages. 99.7% resolved without human escalation. 8x faster than previous agents.",
+            },
+            {
+              name: "Google AP2 Partnership",
+              desc: "Revolut Pay as a core payment rail for agentic commerce. One of the first EU methods compatible with AI-led checkout.",
+            },
+          ].map((item) => (
+            <div key={item.name} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <h3 className="font-bold mb-2">{item.name}</h3>
+              <p className="text-sm text-gray-600">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <h2 className="text-3xl font-bold mb-2">Extending This to S&O</h2>
         <p className="text-gray-500 mb-10 max-w-2xl">
-          The same agent architecture applied to Revolut&apos;s S&O challenges.
-          Each system starts as a personal tool, proves value, then scales to the team.
+          Revolut&apos;s AI investments focus on customer-facing (fraud, support, payments)
+          and engineering. The opportunity is applying the same agentic approach to
+          Strategy & Operations — where I already operate this way daily.
         </p>
 
         <div className="space-y-6">
@@ -302,9 +331,9 @@ export default function HowItWorks() {
             <p className="text-sm text-amber-800">
               <strong>The deployment principle:</strong> Start small, prove value, scale incrementally.
               Every system listed above begins as a personal tool. Once it saves measurable
-              hours, it becomes a team tool. No Big Bang deployments — 37% of organizations
-              have experienced AI-caused operational issues from moving too fast
-              (ISACA 2026 report).
+              hours, it becomes a team tool. No Big Bang deployments — Gartner predicts
+              40%+ of agentic AI projects will be canceled by 2027 due to escalating costs
+              and inadequate governance. The antidote is incremental rollout with human oversight.
             </p>
           </div>
         </div>
@@ -360,7 +389,7 @@ export default function HowItWorks() {
               </div>
               <div>
                 <p className="font-semibold">Nubank</p>
-                <p className="text-gray-400">5,000 of 7,000 employees use AI systems daily. 70% response time reduction in operations.</p>
+                <p className="text-gray-400">5,000+ employees use AI tools monthly across operations. 70% response time reduction. 13M+ customers in Mexico alone.</p>
               </div>
               <div>
                 <p className="font-semibold">HPE — &ldquo;Alfred&rdquo;</p>

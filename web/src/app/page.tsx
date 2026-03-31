@@ -43,7 +43,7 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mb-8">
             Mexico receives{" "}
-            <span className="text-white font-semibold">$62.6B+</span> in
+            <span className="text-white font-semibold">$64.7B</span> in
             remittances annually. But not all corridors are equal — this
             analysis identifies where Revolut has the highest probability of
             winning.
@@ -567,8 +567,10 @@ export default function Home() {
             </p>
             <p>
               <strong>Competitor pricing:</strong> Collected March 2026 from
-              provider websites and World Bank Remittance Prices Worldwide.
-              Dynamic pricing means these are directionally accurate, not exact.
+              provider websites, World Bank Remittance Prices Worldwide, and
+              comparison platforms (Monito, Exiap). Fees and FX markups are
+              dynamic and change by the minute — figures shown are directionally
+              accurate for a $300 USD transfer, not exact quotes.
             </p>
             <p>
               <strong>Opportunity score:</strong> Composite of volume (30%),

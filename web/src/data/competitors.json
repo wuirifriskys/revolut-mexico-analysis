@@ -8,18 +8,18 @@
     "delivery_options": "Bank, Revolut-to-Revolut",
     "delivery_time": "20s (R2R) / 3-5 days (bank)",
     "cash_pickup": false,
-    "note": "Free on weekdays within limits (promo)"
+    "note": "Free on weekdays within $1K/mo limit"
   },
   {
     "provider": "Wise",
-    "fee_usd": 2.64,
-    "fx_markup_pct": 0.03,
-    "total_cost_usd": 2.64,
+    "fee_usd": 2.10,
+    "fx_markup_pct": 0.0,
+    "total_cost_usd": 2.10,
     "recipient_mxn": 5389,
     "delivery_options": "Bank deposit",
     "delivery_time": "< 20 seconds (74%)",
     "cash_pickup": false,
-    "note": "Mid-market rate, transparent fees"
+    "note": "Mid-market rate, 0.7% service fee"
   },
   {
     "provider": "Remitly",
@@ -35,9 +35,9 @@
   {
     "provider": "Xoom",
     "fee_usd": 0.0,
-    "fx_markup_pct": 1.75,
+    "fx_markup_pct": 4.5,
     "total_cost_usd": 0.0,
-    "recipient_mxn": 5340,
+    "recipient_mxn": 5192,
     "delivery_options": "Bank, cash, mobile wallet",
     "delivery_time": "~1 hour (bank)",
     "cash_pickup": true,
@@ -45,13 +45,13 @@
   },
   {
     "provider": "Western Union",
-    "fee_usd": 5.0,
-    "fx_markup_pct": 1.9,
-    "total_cost_usd": 5.0,
-    "recipient_mxn": 5245,
+    "fee_usd": 0.0,
+    "fx_markup_pct": 3.5,
+    "total_cost_usd": 0.0,
+    "recipient_mxn": 5247,
     "delivery_options": "Bank, cash, card",
     "delivery_time": "Minutes (cash) / 1-3 days (bank)",
     "cash_pickup": true,
-    "note": "50,000+ Mexico locations"
+    "note": "23,000+ Mexico agent locations"
   }
 ]
